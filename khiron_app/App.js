@@ -1,18 +1,26 @@
 import { StatusBar } from 'expo-status-bar';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View, Image } from 'react-native';
 
 export default function App() {
+  const logo = require('./assets/Khiron-PNGs/Logo-21.png');
   const style = {
     color: '#fff',
-    fontSize: 64,
+    fontSize: 64, //Font to be used: Gotham
     fontWeight: 'bold',
   };
+
+  const style2 = {
+    fontSize: 24, 
+    marginTop: 24,
+    color: '#fff',
+  }
 
   return (
     <View style={styles.container}>
       <Text style={style}>SOLO</Text>
-      <Button title="Click me" onPress={()=> console.log("Button tapped")}/>
       <StatusBar style="auto" />
+      <Text style={style2}>Powered By</Text>
+      <Image source={logo} style={{ width: 300, height: 200 }}  />
     </View>
   );
 }
