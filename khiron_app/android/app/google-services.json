@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "353230209186",
+    "firebase_url": "https://khiron-7cf85-default-rtdb.firebaseio.com",
+    "project_id": "khiron-7cf85",
+    "storage_bucket": "khiron-7cf85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353230209186:android:2734b8642356aa1f5ed7fb",
+        "android_client_info": {
+          "package_name": "com.khiron"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyBq9rpUux6D80ccrWWuDmG1iGw6U6SF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
