@@ -4,6 +4,9 @@
     "slug": "khiron_app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "dependencies":{
+      "react-navigation": "^5.x.x"
+    },
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
