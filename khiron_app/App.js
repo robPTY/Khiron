@@ -6,8 +6,12 @@ import { createStackNavigator } from 'react-navigation-stack';
 import LoadingScreen from './screens/LoadingScreen';
 import HomeScreen from './screens/HomeScreen';
 
+
+
 export default function App(){
   return(
-      <LoadingScreen/>
+      <View>
+        <Text>Hi</Text>
+      </View>
   );
 }
